@@ -1,0 +1,65 @@
+:root {
+	--base: #cdcd76;
+	--blur: 10px;
+	--spacing: 20px;
+}
+
+* {
+	padding: 0px;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: #839074;
+	font-family: fantasy;
+	margin: 60px;
+	text-align: center;
+	overflow: auto;
+	max-height: 1vh;
+}
+
+h1 {
+	font-size: 3rem;
+	letter-spacing: 5px;
+}
+
+span{
+	color: var(--base);
+}
+
+.controls {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: auto;
+
+}
+
+label {
+	margin: 0 30px 0 30px;
+	letter-spacing: 1px;
+	font-size: 1.3rem;
+	color: #e7e7c1;
+
+}
+
+input {
+	appearance: none;
+	height: 1px;
+	background-color: #000000;
+}
+
+input[type="color"] {
+	height: 40px;
+	width: 40px;
+	border: transparent;
+	background-color: transparent;
+}
+
+img{
+	width: 600px;
+	padding: var(--spacing);
+	background-color: var(--base);
+	filter: blur(var(--blur));
+	height: 350px;
+}
